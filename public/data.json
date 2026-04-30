@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Ceramic Blue Tile",
+    "description": "Premium ceramic tile with blue glaze finish",
+    "image": "/images/tiles/tile1.jpg",
+    "category": "ceramic",
+    "price": 45.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "2",
+    "title": "Marble White Tile",
+    "description": "Elegant white marble tile for modern interiors",
+    "image": "/images/tiles/tile2.jpg",
+    "category": "marble",
+    "price": 65.50,
+    "currency": "USD",
+    "dimensions": "80x80 cm",
+    "material": "Marble",
+    "inStock": true
+  },
+  {
+    "id": "3",
+    "title": "Wooden Brown Tile",
+    "description": "Natural wood finish tile with warm texture",
+    "image": "/images/tiles/tile3.jpg",
+    "category": "wood",
+    "price": 55.00,
+    "currency": "USD",
+    "dimensions": "100x20 cm",
+    "material": "Porcelain",
+    "inStock": false
+  },
+  {
+    "id": "4",
+    "title": "Geometric Pattern Tile",
+    "description": "Stylish geometric patterned tile for feature walls",
+    "image": "/images/tiles/tile4.jpg",
+    "category": "pattern",
+    "price": 70.00,
+    "currency": "USD",
+    "dimensions": "50x50 cm",
+    "material": "Ceramic",
+    "inStock": true
+  }
+]
