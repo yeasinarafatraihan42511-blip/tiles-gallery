@@ -1,3 +1,4 @@
+import PhotoCard from "./PhotoCard";
 
 
 
@@ -9,6 +10,12 @@ const FeaturedTiles = async () => {
     return (
         <div>
             <h2 className="text-3xl font-bold mt-5 mb-8">Featured Tiles</h2>
+            <div>
+             {tiles.map(photo => <PhotoCard key={photo.id} {...photo} />
+                   )}
+            </div>
+                
+
             
         </div>
     );
