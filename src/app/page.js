@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <div>
           <Banner/>
-          <FeaturedTiles />
+          <FeaturedTiles/>
+          
     </div>
   );
 }

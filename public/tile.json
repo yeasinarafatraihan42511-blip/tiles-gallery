@@ -1,0 +1,47 @@
+
+[
+  {
+    "id": "tile_001",
+    "title": "Ceramic Blue Tile",
+    "image": "/tile1.jpg",
+    "category": "ceramic",
+    "price": 45.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_002",
+    "title": "Marble White Tile",
+    "image": "/tile2.jpg",
+    "category": "marble",
+    "price": 65.5,
+    "currency": "USD",
+    "dimensions": "80x80 cm",
+    "material": "Marble",
+    "inStock": true
+  },
+  {
+    "id": "tile_003",
+    "title": "Wooden Brown Tile",
+    "image": "/tile3.jpg",
+    "category": "wood",
+    "price": 55,
+    "currency": "USD",
+    "dimensions": "100x20 cm",
+    "material": "Porcelain",
+    "inStock": false
+  },
+  {
+    "id": "tile_004",
+    "title": "Geometric Pattern Tile",
+    "image": "/tile4.jpg",
+    "category": "pattern",
+    "price": 70,
+    "currency": "USD",
+    "dimensions": "50x50 cm",
+    "material": "Ceramic",
+    "inStock": true
+  }
+]
