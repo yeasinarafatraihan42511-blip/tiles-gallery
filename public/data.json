@@ -1,9 +1,58 @@
+// [
+//   {
+//     "id": "1",
+//     "title": "Ceramic Blue Tile",
+//     "description": "Premium ceramic tile with blue glaze finish",
+//     "url": "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/creative%20concrete%20p%20brick/ambience/high-res/RAK_Cersaie24_Creative%20Concrete%20P%20Stone%20with%20Bricks.jpg",
+//     "category": "ceramic",
+//     "price": 45.99,
+//     "currency": "USD",
+//     "dimensions": "60x60 cm",
+//     "material": "Ceramic",
+//     "inStock": true
+//   },
+//   {
+//     "id": "2",
+//     "title": "Marble White Tile",
+//     "description": "Elegant white marble tile for modern interiors",
+//     "url": "https://unsplash.com/photos/a-bathroom-with-a-marble-wall-and-floor-BpPtmkoz9E4",
+//     "category": "marble",
+//     "price": 65.50,
+//     "currency": "USD",
+//     "dimensions": "80x80 cm",
+//     "material": "Marble",
+//     "inStock": true
+//   },
+//   {
+//     "id": "3",
+//     "title": "Wooden Brown Tile",
+//     "description": "Natural wood finish tile with warm texture",
+//     "url": "https://images.orientbell.com/media/catalog/product//h/o/honey_rosewood_carving.jpg",
+//     "category": "wood",
+//     "price": 55.00,
+//     "currency": "USD",
+//     "dimensions": "100x20 cm",
+//     "material": "Porcelain",
+//     "inStock": false
+//   },
+//   {
+//     "id": "4",
+//     "title": "Geometric Pattern Tile",
+//     "description": "Stylish geometric patterned tile for feature walls",
+//     "url": "https://fabdiz.com/wp-content/uploads/2023/06/Melange-Blue-Porcelain-Tile-sm_900x-725x1024.webp",
+//     "category": "pattern",
+//     "price": 70.00,
+//     "currency": "USD",
+//     "dimensions": "50x50 cm",
+//     "material": "Ceramic",
+//     "inStock": true
+//   }
+// ]
 [
   {
-    "id": "1",
+    "id": "tile_001",
     "title": "Ceramic Blue Tile",
-    "description": "Premium ceramic tile with blue glaze finish",
-    "url": "https://unsplash.com/photos/a-bathroom-with-a-marble-wall-and-floor-BpPtmkoz9E4",
+    "image": "/tile1.jpg",
     "category": "ceramic",
     "price": 45.99,
     "currency": "USD",
@@ -12,36 +61,33 @@
     "inStock": true
   },
   {
-    "id": "2",
+    "id": "tile_002",
     "title": "Marble White Tile",
-    "description": "Elegant white marble tile for modern interiors",
-    "url": "https://unsplash.com/photos/a-bathroom-with-a-marble-wall-and-floor-BpPtmkoz9E4",
+    "image": "/tile2.jpg",
     "category": "marble",
-    "price": 65.50,
+    "price": 65.5,
     "currency": "USD",
     "dimensions": "80x80 cm",
     "material": "Marble",
     "inStock": true
   },
   {
-    "id": "3",
+    "id": "tile_003",
     "title": "Wooden Brown Tile",
-    "description": "Natural wood finish tile with warm texture",
-    "url": "https://unsplash.com/photos/a-bathroom-with-a-marble-wall-and-floor-BpPtmkoz9E4",
+    "image": "/tile3.jpg",
     "category": "wood",
-    "price": 55.00,
+    "price": 55,
     "currency": "USD",
     "dimensions": "100x20 cm",
     "material": "Porcelain",
     "inStock": false
   },
   {
-    "id": "4",
+    "id": "tile_004",
     "title": "Geometric Pattern Tile",
-    "description": "Stylish geometric patterned tile for feature walls",
-    "url": "https://unsplash.com/photos/a-bathroom-with-a-marble-wall-and-floor-BpPtmkoz9E4",
+    "image": "/tile4.jpg",
     "category": "pattern",
-    "price": 70.00,
+    "price": 70,
     "currency": "USD",
     "dimensions": "50x50 cm",
     "material": "Ceramic",
