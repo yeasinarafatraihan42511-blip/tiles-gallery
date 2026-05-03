@@ -92,7 +92,7 @@ export default function LoginPage() {
             <Check />
             Login
           </Button>
-          <Button type="reset" variant="secondary">
+          <Button type="reset" variant="secondary ">
             Reset
           </Button>
         </div>
