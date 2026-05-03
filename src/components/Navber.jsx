@@ -39,7 +39,7 @@ const Navbar = () => {
             <Link href="/all-tiles">All Tiles</Link>
           </li>
           <li>
-            <Link href="/my-profile">My Profile</Link>
+            <Link href="/profile">My Profile</Link>
           </li>
         </ul>
 
