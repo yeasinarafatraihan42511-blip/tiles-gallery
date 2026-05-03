@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { PiHeartDuotone } from "react-icons/pi";
+// import { PiHeartDuotone } from "react-icons/pi";
 
 const TileCard = ({ tile }) => {
   return (
@@ -51,9 +51,7 @@ const TileCard = ({ tile }) => {
           {tile.price} {tile.currency}
         </p>
         <div>
-         <p>
-           <PiHeartDuotone />
-         </p>
+       
         
         </div>
 
