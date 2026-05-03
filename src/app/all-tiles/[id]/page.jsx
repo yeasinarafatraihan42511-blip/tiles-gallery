@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 const TileDetailPage = async ({ params }) => {
@@ -16,6 +17,7 @@ const TileDetailPage = async ({ params }) => {
         {/* LEFT: IMAGE */}
         <div className="w-full">
           <Image
+          alt="image"
             src={tile.image}
             alt={tile.title}
             width={600}

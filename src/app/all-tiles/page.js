@@ -1,3 +1,4 @@
+import TileCard from "@/components/TileCard";
 
 const AllTilesPage = async () => {
     const res = await fetch(
