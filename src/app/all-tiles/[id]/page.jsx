@@ -1,4 +1,10 @@
+import TileCard from "@/components/TileCard";
 import Image from "next/image";
+import { notFound } from "next/navigation";
+
+if (!TileCard) {
+  notFound();
+}
 
 
 const TileDetailPage = async ({ params }) => {
