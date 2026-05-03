@@ -20,13 +20,19 @@ export default function LoginPage() {
     const password = e.target.password.value;
     console.log({  email, password });
 
-    const {data, error} = await authClient.login({
+    const {data, error} = await authClient.signIn.email({
         
         email,
-        password
+        password,
+        callbackURL: '/'
     })
     console.log({data, error})
   };
+  const onGoogleSignIn = async () => {
+    await authClient.signIn.social({
+      provider: 'google',
+    })
+  }
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
@@ -91,6 +97,12 @@ export default function LoginPage() {
           </Button>
         </div>
       </Form>
+      <p className="text-center">Or</p>
+      <div className="px-10 flex justify-center">
+        <Button onClick={onGoogleSignIn} variant="outline" className={'W-full'} >
+        Sign in with Google
+      </Button>
+      </div>
     </Card>
   );
 }
