@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { PiHeartDuotone } from "react-icons/pi";
 
 const TileCard = ({ tile }) => {
   return (
@@ -10,6 +11,7 @@ const TileCard = ({ tile }) => {
       <div className="relative">
         <Image
           src={tile.image}
+          size="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           
           width={400}
           height={250}
@@ -48,9 +50,15 @@ const TileCard = ({ tile }) => {
         <p className="text-md font-bold text-black">
           {tile.price} {tile.currency}
         </p>
+        <div>
+         <p>
+           <PiHeartDuotone />
+         </p>
+        
+        </div>
 
         {/* Button */}
-        <Link href={`/tile/${tile.id}`}>
+        <Link href={`/all-tiles/${tile.id}`}>
           <button className="w-full mt-2 bg-blue-700 text-white py-2 rounded-lg hover:bg-gray-800 transition">
             View Details
           </button>
