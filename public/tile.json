@@ -43,5 +43,17 @@
     "dimensions": "50x50 cm",
     "material": "Ceramic",
     "inStock": true
+  },
+  {
+    "id": "tile_005",
+    "title": "Geometric Pattern Tile",
+    "image": "/tile4.jpg",
+    "category": "pattern",
+    "price": 70,
+    "currency": "USD",
+    "dimensions": "50x50 cm",
+    "material": "Ceramic",
+    "inStock": true
   }
+
 ]
