@@ -15,7 +15,7 @@ const TileDetailPage = async ({ params }) => {
  
     
     return (
-        <div className="max-w-6xl mx-auto px-4 py-10">
+        <div className="max-w-6xl mx-auto px-4 py-10 bg-yellow-50 rounded-lg shadow border-b-amber-600 border-b-4">
       <h1 className="text-3xl font-bold mb-8">Tile Details</h1>
 
       <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -24,7 +24,7 @@ const TileDetailPage = async ({ params }) => {
         <div className="w-full">
           <Image
           alt="image"
-            src={tile.Image}
+            src={tile.image}
             alt={tile.title}
             width={600}
             height={400}
