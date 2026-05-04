@@ -44,16 +44,117 @@
     "material": "Ceramic",
     "inStock": true
   },
+  [
   {
     "id": "tile_005",
-    "title": "Geometric Pattern Tile",
-    "image": "/tile4.jpg",
-    "category": "pattern",
-    "price": 70,
+    "title": "Glossy Black Tile",
+    "image": "/tile5.jpg",
+    "category": "ceramic",
+    "price": 50,
     "currency": "USD",
-    "dimensions": "50x50 cm",
+    "dimensions": "60x60 cm",
     "material": "Ceramic",
     "inStock": true
+  },
+  {
+    "id": "tile_006",
+    "title": "Beige Stone Tile",
+    "image": "/tile6.jpg",
+    "category": "stone",
+    "price": 72.25,
+    "currency": "USD",
+    "dimensions": "75x75 cm",
+    "material": "Natural Stone",
+    "inStock": true
+  },
+  {
+    "id": "tile_007",
+    "title": "Matte Grey Tile",
+    "image": "/tile7.jpg",
+    "category": "ceramic",
+    "price": 48.75,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": false
+  },
+  {
+    "id": "tile_008",
+    "title": "Luxury Gold Vein Marble",
+    "image": "/tile8.jpg",
+    "category": "marble",
+    "price": 95,
+    "currency": "USD",
+    "dimensions": "90x90 cm",
+    "material": "Marble",
+    "inStock": true
+  },
+  {
+    "id": "tile_009",
+    "title": "Classic White Subway Tile",
+    "image": "/tile9.jpg",
+    "category": "ceramic",
+    "price": 30,
+    "currency": "USD",
+    "dimensions": "30x10 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_010",
+    "title": "Rustic Terracotta Tile",
+    "image": "/tile10.jpg",
+    "category": "terracotta",
+    "price": 40,
+    "currency": "USD",
+    "dimensions": "40x40 cm",
+    "material": "Clay",
+    "inStock": true
+  },
+  {
+    "id": "tile_011",
+    "title": "Dark Concrete Tile",
+    "image": "/tile11.jpg",
+    "category": "concrete",
+    "price": 60,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Concrete",
+    "inStock": false
+  },
+  {
+    "id": "tile_012",
+    "title": "Floral Pattern Tile",
+    "image": "/tile12.jpg",
+    "category": "pattern",
+    "price": 68,
+    "currency": "USD",
+    "dimensions": "45x45 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_013",
+    "title": "Light Oak Wood Tile",
+    "image": "/tile13.jpg",
+    "category": "wood",
+    "price": 58,
+    "currency": "USD",
+    "dimensions": "120x20 cm",
+    "material": "Porcelain",
+    "inStock": true
+  },
+  {
+    "id": "tile_014",
+    "title": "Hexagon Mosaic Tile",
+    "image": "/tile14.jpg",
+    "category": "mosaic",
+    "price": 75,
+    "currency": "USD",
+    "dimensions": "30x30 cm",
+    "material": "Glass",
+    "inStock": true
   }
+]
 
 ]
