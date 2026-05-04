@@ -44,7 +44,6 @@
     "material": "Ceramic",
     "inStock": true
   },
-  [
   {
     "id": "tile_005",
     "title": "Glossy Black Tile",
@@ -155,6 +154,6 @@
     "material": "Glass",
     "inStock": true
   }
-]
+  
 
 ]

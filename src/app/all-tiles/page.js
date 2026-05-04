@@ -2,7 +2,7 @@ import TileCard from "@/components/TileCard";
 
 const AllTilesPage = async () => {
     const res = await fetch(
-    "http://localhost:3000/tile.json",
+    "https://tiles-gallery-five.vercel.app/tile.json",
     { cache: "no-store" }
   );
   const data = await res.json();
