@@ -1,4 +1,5 @@
 import TileCard from "@/components/TileCard";
+
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
@@ -9,7 +10,7 @@ if (!TileCard) {
 
 const TileDetailPage = async ({ params }) => {
     const {id} = await params;
-    const res = await fetch( `https://tailsgallery.vercel.app/tile.json`, { cache: "no-store" });
+    const res = await fetch( `https://tiles-gallery-five.vercel.app/tile.json`, { cache: "no-store" });
     const tiles = await res.json();
     const tile = tiles.find(t => t.id === id);
  

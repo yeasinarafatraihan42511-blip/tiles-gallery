@@ -168,7 +168,7 @@ export default function LoginPage() {
             <Input placeholder="Enter password" />
           </TextField>
 
-          <Button type="submit" className="bg-black text-white">
+          <Button type="submit" className="bg-blue-600 text-white">
             Login
           </Button>
         </Form>
@@ -179,7 +179,7 @@ export default function LoginPage() {
         <Button
           onClick={onGoogleSignIn}
           variant="bordered"
-          className="w-full"
+          className="w-full btn bg-amber-600 text-white hover:bg-amber-700" 
         >
           Continue with Google
         </Button>

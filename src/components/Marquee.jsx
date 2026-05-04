@@ -2,8 +2,8 @@
 
 const Marquee = () => {
   return (
-    <div className="w-full overflow-hidden bg-cyan-600 text-white py-2 mb-6 rounded">
-      <div className="flex whitespace-nowrap animate-marquee hover:[animation-play-state:paused]">
+    <div pauseonhover="true" className="w-full overflow-hidden bg-amber-600 text-white py-2 mb-8 rounded-lg">
+      <div className="flex whitespace-nowrap animate-marquee gap-8">
         
         <p className="mx-6">
           🔥 New Arrivals: Ceramic Blue Tile | Marble White Tile | Wooden Brown Tile

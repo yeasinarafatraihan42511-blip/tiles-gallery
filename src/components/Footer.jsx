@@ -228,12 +228,18 @@ const Footer = () => {
             <h3 className="text-sm font-semibold mb-4">Contact Us</h3>
 
             <p className="text-sm text-gray-600 mb-3">
-              Have questions or need help choosing tiles?
+              tilesgalley@gmail.com
             </p>
+              <p className="text-sm text-gray-600 mb-3">
+              +1 (555) 123-4567
+            </p>
+          
+
+
 
             <Link
               href="/contact"
-              className="inline-block px-4 py-2 bg-black text-white text-sm rounded-md hover:bg-gray-800 transition"
+              className="inline-block px-4 py-2 bg-amber-600 text-white text-sm rounded-md hover:bg-amber-700 transition"
             >
               Contact
             </Link>

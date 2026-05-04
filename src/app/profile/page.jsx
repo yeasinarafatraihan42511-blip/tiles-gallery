@@ -10,7 +10,7 @@ const Profilepage = () => {
     const user = userData.data?.user;
     console.log(user);
     return (
-        <div>
+        <div className=" flex flex-col items-center justify-center bg-yellow-50 rounded-lg shadow border-b-amber-600 border-b-4 py-10">
             <Card className="w-96 mx-auto mt-10 flex flex-col items-center gap-4 p-6 *:bg-gray-50   rounded-lg border mt-10">
                 <Avatar className="w-24 h-24">
                     <Avatar.Image alt="John Doe" src={user?.image} referrerPolicy="no-referrer" />

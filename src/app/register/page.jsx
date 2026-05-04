@@ -184,7 +184,7 @@ export default function RegisterPage() {
             <Input placeholder="Enter password" />
           </TextField>
 
-          <Button type="submit" className="bg-black text-white">
+          <Button type="submit" className="bg-blue-600 text-white">
             Register
           </Button>
         </Form>

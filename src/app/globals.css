@@ -2,28 +2,37 @@
 @import "@heroui/styles"; 
 @keyframes slideBg {
   0% {
-    background-image: url('/tile1.jpg');
+    background-image: url('/tile6.jpg');
   }
   33% {
-    background-image: url('/tile2.jpg');
+    background-image: url('/tile7.jpg');
   }
   66% {
-    background-image: url('/tile3.jpg');
+    background-image: url('/tile8.jpg');
   }
   100% {
-    background-image: url('/tile4.jpg');
+    background-image: url('/tile9.jpg');
   }
 }
 
 
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
 .animate-marquee {
   animation: marquee 18s linear infinite;
 }
-.marquee-track {
-  animation: marquee 18s linear infinite;
-}
 
-.marquee-container:hover .marquee-track {
-  animation-play-state: paused;
+
+.banner-animate {
+  animation: slideBg 12s infinite ease-in-out;
+  background-size: cover;
+  background-position: center;
 }
