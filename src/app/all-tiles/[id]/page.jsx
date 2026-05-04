@@ -24,7 +24,7 @@ const TileDetailPage = async ({ params }) => {
         <div className="w-full">
           <Image
           alt="image"
-            src={tile.image}
+            src={tile.Image}
             alt={tile.title}
             width={600}
             height={400}

@@ -4,7 +4,7 @@ import Navbar from "@/components/Navber";
 import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
 
-<Toaster position="top-center" />
+
 
 
 
@@ -34,6 +34,7 @@ export default function RootLayout({ children }) {
         <main className="max-w-7xl mx-auto px-4 py-8">{children}</main>
 
         <Footer />
+        <Toaster position="top-center" />
       </body>
     </html>
   );
